@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "643797903253",
+    "project_id": "cpplearn-c735e",
+    "storage_bucket": "cpplearn-c735e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643797903253:android:5b7e68a234c7615114789c",
+        "android_client_info": {
+          "package_name": "com.example.clearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRt7Afycugt7cGiXwKEcuXIBox9vVNN0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
