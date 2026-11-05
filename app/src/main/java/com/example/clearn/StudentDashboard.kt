@@ -128,10 +128,7 @@ fun StudentDashboard(
                     onNavigate = { page = it }
                 )
 
-                StudentPage.LIBRARY -> EmptyPage(
-                    "E-Book Library",
-                    "No C++ books available yet. Your learning library will appear here."
-                )
+                StudentPage.LIBRARY -> EBookLibraryScreen()
 
                 StudentPage.QUIZ -> EmptyPage(
                     "C++ Quiz",
@@ -145,8 +142,10 @@ fun StudentDashboard(
                     "You haven't bookmarked any C++ books yet."
                 )
 
-                StudentPage.PROFILE -> ProfilePage(
-                    onLogout = onLogout
+                StudentPage.PROFILE -> StudentProfileScreen(
+                    onLogoutClick = {
+                        // Connect your existing logout function here.
+                    }
                 )
             }
         }
